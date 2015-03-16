@@ -1,0 +1,5 @@
+print("Welcome to our subtraction program")
+firstnum = float(input("What is your first number. "))
+secondnum = float(input("What is your second number. "))
+thesum = round(firstnum - secondnum, 2)
+print("Your difference is {}".format(thesum))
